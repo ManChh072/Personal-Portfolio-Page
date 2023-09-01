@@ -1,0 +1,23 @@
+{
+  "name": "personalpage",
+  "version": "1.0.0",
+  "description": "a web app to host my personal portfolio",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo yay"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManChh072/Personal-Portfolio-Page.git"
+  },
+  "keywords": [
+    "parallax",
+    "portfolio"
+  ],
+  "author": "Mandip Chhetri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManChh072/Personal-Portfolio-Page/issues"
+  },
+  "homepage": "https://github.com/ManChh072/Personal-Portfolio-Page#readme"
+}
