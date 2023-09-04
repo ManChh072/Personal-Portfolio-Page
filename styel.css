@@ -1,0 +1,15 @@
+#navBar {
+  background-color: #02111B;
+}
+
+#navBar, h3, #name {
+  color: white;
+}
+
+.about {
+  color: #E1CA96;
+  text-align: center;
+  background-color: #02111B;
+}
+
+/*# sourceMappingURL=styel.css.map */

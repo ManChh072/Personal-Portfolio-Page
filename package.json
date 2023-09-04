@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ManChh072/Personal-Portfolio-Page/issues"
   },
-  "homepage": "https://github.com/ManChh072/Personal-Portfolio-Page#readme"
+  "homepage": "https://github.com/ManChh072/Personal-Portfolio-Page#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.1"
+  }
 }

@@ -1,0 +1,1 @@
+My codebase for my personal page, where my portfolio, about section, and resume is included. Feel free to play around with my code and personalize it for yourself.

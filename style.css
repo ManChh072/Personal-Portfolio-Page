@@ -1,5 +1,66 @@
-html {
-  background-color: yellow;
+#navBar {
+  background-color: #02111B;
+}
+
+#navBar h3 {
+  color: white;
+}
+
+#about, #name {
+  color: #E1CA96;
+  background-color: #02111B;
+}
+
+#skills {
+  background-color: #E1CA96;
+}
+
+#about, #skills, #works {
+  height: 100vh;
+}
+
+#Contact {
+  height: 50vh;
+  background-color: #9A031E;
+}
+
+#Contact h3 {
+  color: #E1CA96;
+}
+
+#works {
+  background-color: #02111B;
+}
+
+#works h2 {
+  color: #E1CA96;
+}
+
+#works h3 {
+  color: #E1CA96;
+}
+
+h1 {
+  font-size: 40vh;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-size: 20vh;
+  text-align: center;
+}
+
+.skills h2 {
+  color: #02111B;
+}
+
+h3 {
+  color: #02111B;
+}
+
+li {
+  font-size: 10vh;
 }
 
 /*# sourceMappingURL=style.css.map */

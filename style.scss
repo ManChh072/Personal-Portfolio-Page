@@ -1,5 +1,61 @@
-$backgroundcolor: yellow;
+$backcolor_one: #02111B;
+$backcolor_two: #E1CA96;
+$backcolor_three: #9A031E;
+$textcolor: white;
+$highlight_color: #ACA885;
 
-html{
-    background-color: $backgroundcolor;
+//fully scale background
+
+//adding colors for navigation bar
+#navBar  {
+    background-color: $backcolor_one;
 }
+#navBar h3 {
+   color: $textcolor;
+}
+//colors to about section
+#about, #name {
+    color: $backcolor_two;
+    background-color: $backcolor_one;
+}
+#skills {
+    background-color: $backcolor_two;
+}
+#about, #skills, #works{
+    height: 100vh;
+}
+#Contact{
+    height: 50vh;
+    background-color: $backcolor_three;
+}
+#Contact h3{
+    color: $backcolor_two;
+}
+#works{
+    background-color: $backcolor_one;
+}
+#works h2{
+    color: $backcolor_two;
+}
+#works h3{
+    color: $backcolor_two;
+}
+h1{
+    font-size: 40vh;
+    text-align: center;
+    color: $textcolor;
+}
+h2{
+    font-size: 20vh;
+    text-align: center;
+}
+.skills h2{
+    color:$backcolor_one;
+}
+h3{
+    color: $backcolor_one;
+}
+li {
+    font-size: 10vh;
+}
+//parallax scrolling effect with colors
