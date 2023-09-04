@@ -10,8 +10,10 @@ $highlight_color: #ACA885;
 #navBar  {
     background-color: $backcolor_one;
 }
-#navBar h3 {
-   color: $textcolor;
+#navBar {
+    h3{
+        color: $textcolor;
+    }
 }
 //colors to about section
 #about, #name {
@@ -27,19 +29,20 @@ $highlight_color: #ACA885;
 #Contact{
     height: 50vh;
     background-color: $backcolor_three;
-}
-#Contact h3{
-    color: $backcolor_two;
+    h3{
+        color: $backcolor_two;
+    }
 }
 #works{
     background-color: $backcolor_one;
+    h2{
+        color: $backcolor_two;
+    }
+    h3{
+        color: $backcolor_two;
+    }
 }
-#works h2{
-    color: $backcolor_two;
-}
-#works h3{
-    color: $backcolor_two;
-}
+
 h1{
     font-size: 40vh;
     text-align: center;
@@ -49,13 +52,16 @@ h2{
     font-size: 20vh;
     text-align: center;
 }
-.skills h2{
+.skills{
+    h2{
     color:$backcolor_one;
-}
-h3{
-    color: $backcolor_one;
+    }
+    h3{
+        color: $backcolor_one;
+    }
 }
 li {
     font-size: 10vh;
 }
+
 //parallax scrolling effect with colors

@@ -23,7 +23,6 @@
   height: 50vh;
   background-color: #9A031E;
 }
-
 #Contact h3 {
   color: #E1CA96;
 }
@@ -31,11 +30,9 @@
 #works {
   background-color: #02111B;
 }
-
 #works h2 {
   color: #E1CA96;
 }
-
 #works h3 {
   color: #E1CA96;
 }
@@ -54,8 +51,7 @@ h2 {
 .skills h2 {
   color: #02111B;
 }
-
-h3 {
+.skills h3 {
   color: #02111B;
 }
 
