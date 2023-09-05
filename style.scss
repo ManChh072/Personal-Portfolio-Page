@@ -7,18 +7,15 @@ $highlight_color: #ACA885;
 //fully scale background
 
 //adding colors for navigation bar
-#navBar  {
-    background-color: $backcolor_one;
+.pos-f-t  {
+    position:fixed;
 }
-#navBar {
-    h3{
-        color: $textcolor;
-    }
-}
+
 //colors to about section
 #about, #name {
     color: $backcolor_two;
     background-color: $backcolor_one;
+    transition: background-color 0.3s ease;
 }
 #skills {
     background-color: $backcolor_two;
@@ -54,7 +51,7 @@ h2{
 }
 .skills{
     h2{
-    color:$backcolor_one;
+        color:$backcolor_one;
     }
     h3{
         color: $backcolor_one;

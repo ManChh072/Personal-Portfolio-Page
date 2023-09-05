@@ -1,14 +1,11 @@
-#navBar {
-  background-color: #02111B;
-}
-
-#navBar h3 {
-  color: white;
+.pos-f-t {
+  position: fixed;
 }
 
 #about, #name {
   color: #E1CA96;
   background-color: #02111B;
+  transition: background-color 0.3s ease;
 }
 
 #skills {
