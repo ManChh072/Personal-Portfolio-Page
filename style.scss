@@ -3,62 +3,319 @@ $backcolor_two: #E1CA96;
 $backcolor_three: #9A031E;
 $textcolor: white;
 $highlight_color: #ACA885;
+$main_size: 40vh;
 
-//fully scale background
-
-//adding colors for navigation bar
-.pos-f-t  {
-    position:fixed;
-}
 
 //colors to about section
-#about, #name {
-    color: $backcolor_two;
-    background-color: $backcolor_one;
-    transition: background-color 0.3s ease;
-}
-#skills {
-    background-color: $backcolor_two;
-}
-#about, #skills, #works{
-    height: 100vh;
-}
-#Contact{
-    height: 50vh;
-    background-color: $backcolor_three;
-    h3{
-        color: $backcolor_two;
+@media only screen and (min-width:1200px){
+
+    #scrollToTopBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 99;
+        cursor: pointer;
+        padding: 10px 20px;
+        background-color: $highlight_color;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
     }
-}
-#works{
-    background-color: $backcolor_one;
-    h2{
-        color: $backcolor_two;
+    #scrollToTopBtn:hover {
+        background-color: #0056b3;
     }
-    h3{
-        color: $backcolor_two;
+    #name, #about, #skills{
+        height: calc($main_size * 2.5);
     }
+    #name{  
+    h1{
+        font-size: $main_size;
+        text-align: center;
+        color: $textcolor;
+    }
+    }
+    #about, #name {
+        color: $backcolor_two;
+        background-color: $backcolor_one;
+    }
+    #skills {
+        background-color: $backcolor_two;
+        h2{
+            color:$backcolor_one;
+            text-align: center;
+            font-size: calc($main_size/2);
+        }
+        h3{
+            color: $backcolor_one;
+        }
+    }
+ 
+    #Contact{
+        height: calc($main_size/2);
+        background-color: $backcolor_three;
+        p{
+            color: $backcolor_two;
+            font-size: calc($main_size/8);
+        }
+        a {
+            color: $backcolor_two;
+        }
+        a:hover {
+            background-color: $highlight_color;
+        }
+    
+    }
+    #works{
+        background-color: $backcolor_one;
+        h2{
+            color: $backcolor_two;
+            font-size: calc($main_size/2);
+        }
+        h3{
+            color: $backcolor_two;
+            font-size: calc($main_size/4);
+        }
+    }
+
+    #about p{
+        font-size: calc($main_size/4);
+        text-align: center;
+    }
+    
+    li {
+        font-size: calc($main_size/4);
+    }
+    
 }
 
-h1{
-    font-size: 40vh;
-    text-align: center;
-    color: $textcolor;
-}
-h2{
-    font-size: 20vh;
-    text-align: center;
-}
-.skills{
-    h2{
-        color:$backcolor_one;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #scrollToTopBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 99;
+        cursor: pointer;
+        padding: 10px 20px;
+        background-color: $highlight_color;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
     }
-    h3{
-        color: $backcolor_one;
+    #scrollToTopBtn:hover {
+        background-color: #0056b3;
     }
-}
-li {
-    font-size: 10vh;
-}
+    #name, #about, #skills{
+        height: calc($main_size * 2.5);
+    }
+    #name{  
+    h1{
+        font-size: $main_size;
+        text-align: center;
+        color: $textcolor;
+    }
+    }
+    #about, #name {
+        color: $backcolor_two;
+        background-color: $backcolor_one;
+    }
+    #skills {
+        background-color: $backcolor_two;
+        h2{
+            color:$backcolor_one;
+            text-align: center;
+            font-size: calc($main_size/2);
+        }
+        h3{
+            color: $backcolor_one;
+        }
+    }
+ 
+    #Contact{
+        height: calc($main_size/2);
+        background-color: $backcolor_three;
+        p{
+            color: $backcolor_two;
+            font-size: calc($main_size/8);
+        }
+        a {
+            color: $backcolor_two;
+        }
+        a:hover {
+            background-color: $highlight_color;
+        }
+    
+    }
+    #works{
+        background-color: $backcolor_one;
+        h2{
+            color: $backcolor_two;
+            font-size: calc($main_size/2);
+        }
+        h3{
+            color: $backcolor_two;
+            font-size: calc($main_size/4);
+        }
+    }
 
-//parallax scrolling effect with colors
+    #about p{
+        font-size: calc($main_size/4);
+        text-align: center;
+    }
+    
+    li {
+        font-size: calc($main_size/4);
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #scrollToTopBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 99;
+        cursor: pointer;
+        padding: 10px 20px;
+        background-color: $highlight_color;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+    }
+
+    #scrollToTopBtn:hover {
+        background-color: #0056b3;
+    }
+    #name{  
+    h1{
+        font-size: calc($main_size/4);
+        text-align: center;
+        color: $textcolor;
+    }
+    }
+    #about, #name {
+        color: $backcolor_two;
+        background-color: $backcolor_one;
+    }
+    #skills {
+        background-color: $backcolor_two;
+        h2{
+            color:$backcolor_one;
+            text-align: center;
+            font-size: calc($main_size/8);
+        }
+        h3{
+            color: $backcolor_one;
+        }
+    }
+ 
+    #Contact{
+        height: calc($main_size/2);
+        background-color: $backcolor_three;
+        p{
+            color: $backcolor_two;
+            font-size: calc($main_size/32);
+        }
+        a{
+            text-decoration: underline;
+        }
+    }
+    #works{
+        background-color: $backcolor_one;
+        h2{
+            color: $backcolor_two;
+            font-size: calc($main_size/8);
+        }
+        h3{
+            color: $backcolor_two;
+            font-size: calc($main_size/16);
+        }
+    }
+
+    #about{
+        p{
+            font-size: calc($main_size/16);
+        }
+    }
+    
+    li {
+        font-size: calc($main_size/16);
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    #scrollToTopBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 99;
+        cursor: pointer;
+        padding: 10px 20px;
+        background-color: $highlight_color;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+    }
+
+    #scrollToTopBtn:hover {
+        background-color: #0056b3;
+    }
+    #name{  
+    h1{
+        font-size: calc($main_size/4);
+        text-align: center;
+        color: $textcolor;
+    }
+    }
+    #about, #name {
+        color: $backcolor_two;
+        background-color: $backcolor_one;
+    }
+    #skills {
+        background-color: $backcolor_two;
+        h2{
+            color:$backcolor_one;
+            text-align: center;
+            font-size: calc($main_size/8);
+        }
+        h3{
+            color: $backcolor_one;
+        }
+    }
+ 
+    #Contact{
+        height: calc($main_size/2);
+        background-color: $backcolor_three;
+        p{
+            color: $backcolor_two;
+            font-size: calc($main_size/32);
+        }
+        a{
+            text-decoration: underline;
+        }
+    }
+    #works{
+        background-color: $backcolor_one;
+        h2{
+            color: $backcolor_two;
+            font-size: calc($main_size/8);
+        }
+        h3{
+            color: $backcolor_two;
+            font-size: calc($main_size/16);
+        }
+    }
+
+    #about{
+        p{
+            font-size: calc($main_size/16);
+        }
+    }
+    
+    li {
+        font-size: calc($main_size/16);
+    }
+}

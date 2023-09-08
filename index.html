@@ -12,15 +12,29 @@
 </head>
 <body>
     <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <h4 class="text-white">Click to go to the sections below</h4>
+            <span class="text-muted">
+                <a href = "#about">About</a>
+                <a href = "#skills">Skills</a>
+                <a href = "#works">Works</a>
+                <a href = "#contacts">Contacts</a>
+            </span>
+          </div>
+        </div>
         <nav class="navbar navbar-dark bg-dark">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+          <button id="scrollToTopBtn" onclick="scrollToTop()">Click to go Top</button>
         </nav>
-      </div>  
-  <div class = "parallax">
-    <div class="container-fluid">
+      </div>
+    <div class="container-fluid">   
         <div class = "row" id="name">
+            <div class="col-12">
+
+            </div>
             <div class = "col-12">
                 <h1>Mandip Chhetri</h1>
             </div>
@@ -29,8 +43,8 @@
     <div class="container-fluid">
         <div class="row" id="about">
             <div class = "col-12">
-                <h2>Description of me</h2>
-                <h2>Purpose of the Website</h2>
+                <p>A Highly motivated and detail-oriented Full-Stack Web Developer driven to deliver efficient and elegant code through excellent 
+                    time management and a constant pursuit to improve. </p>
             </div>
         </div>
     </div>
@@ -38,18 +52,29 @@
       <div id = "skills">
         <div class = "container-fluid">
             <div class="row">
-                <div class="col-12">
-
-                </div>
                 <div class = "col-12" >
                     <h2>Skills:</h2>
+                </div>
+                <div class = "col-1">
+
+                </div> 
+                <div class = "col-6">     
                     <ul>
-                        <li>skill 1</li>
-                        <li>skill 2</li>
-                        <li>skill 3</li>
-                        <li>skill 4</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>Python</li>
                     </ul>
-                    <h3>Click to download my resume</h3>
+                </div>
+                <div class = "col-4">
+                    <div class ="card" style = "width: 18em;" >
+                        <img class="card-img-top" src="My_Resume.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Resume</h5>
+                          <p class="card-text">Click to view my resume</p>
+                          <a href="Mandip_WebResume.pdf" target="_blank" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
                 </div>
             </div>
         </div>
@@ -60,17 +85,17 @@
                 <div class="col-12">
                     <h2>Works</h2>
                 </div>
-                <div class="col-9">
-                    <h3>my First Webpage</h3>
+                <div class="col-8 col-sm-12">
+                    <h3>Developer Resource Page:</h3>
                 </div>
-                <div class ="col-3">
-                   <h3>Image of my first webpage</h3>
-                </div>
-                <div class = "col-9">
-                    <h3>My second Webpage</h3>
-                </div>
-                <div class="col-3">
-                    <h3>image of my second webpage(this one)</h3>
+                <div class ="col-4">
+                    <div class="card" style = "width: 18em;">
+                        <img class="card-img-top" src="ResourcePage_photo.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Developer Resource Page</h5>
+                          <p class="card-text">Click to go to github page</p>
+                          <a href="https://github.com/ManChh072/Developer-Resource-Hub" target="_blank" class="btn btn-primary">Go somewhere</a>
+                        </div>
                 </div>
             </div>
         </div>
@@ -78,14 +103,13 @@
       <div id = "Contact">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-4">
-                    <h3>Email: </h3>
+                <div class="col-2">
                 </div>
-                <div class="col-4">
-                    <h3>Linkedin: </h3>
+                <div class="col-5">
+                    <p> <a href = "https://www.linkedin.com/in/mandipchhetri/" target="_blank">Linkedln Profile</a> </p>
                 </div>
-                <div class="col-4">
-                    <h3>Github: </h3>
+                <div class="col-5">
+                    <p> <a href = "https://github.com/ManChh072" target="_blank">Github profile </a></p>
                 </div>
             </div>
         </div>

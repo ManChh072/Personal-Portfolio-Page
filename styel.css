@@ -1,15 +1,146 @@
-#navBar {
-  background-color: #02111B;
+@media only screen and (min-width: 1200px) {
+  #scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #ACA885;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+  #scrollToTopBtn:hover {
+    background-color: #0056b3;
+  }
+  #name, #about, #skills {
+    height: 100vh;
+  }
+  #name h1 {
+    font-size: 40vh;
+    text-align: center;
+    color: white;
+  }
+  #about, #name {
+    color: #E1CA96;
+    background-color: #02111B;
+  }
+  #skills {
+    background-color: #E1CA96;
+  }
+  #skills h2 {
+    color: #02111B;
+    text-align: center;
+    font-size: 20vh;
+  }
+  #skills h3 {
+    color: #02111B;
+  }
+  #Contact {
+    height: 20vh;
+    background-color: #9A031E;
+  }
+  #Contact p {
+    color: #E1CA96;
+    font-size: 5vh;
+  }
+  #Contact a {
+    color: #E1CA96;
+  }
+  #Contact a:hover {
+    background-color: #ACA885;
+  }
+  #works {
+    background-color: #02111B;
+  }
+  #works h2 {
+    color: #E1CA96;
+    font-size: 20vh;
+  }
+  #works h3 {
+    color: #E1CA96;
+    font-size: 10vh;
+  }
+  #about p {
+    font-size: 10vh;
+    text-align: center;
+  }
+  li {
+    font-size: 10vh;
+  }
 }
-
-#navBar, h3, #name {
-  color: white;
-}
-
-.about {
-  color: #E1CA96;
-  text-align: center;
-  background-color: #02111B;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  #scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #ACA885;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+  .card {
+    width: 10vh;
+    height: 10vh;
+  }
+  #scrollToTopBtn:hover {
+    background-color: #0056b3;
+  }
+  #name h1 {
+    font-size: 10vh;
+    text-align: center;
+    color: white;
+  }
+  #about, #name {
+    color: #E1CA96;
+    background-color: #02111B;
+  }
+  #skills {
+    background-color: #E1CA96;
+  }
+  #skills h2 {
+    color: #02111B;
+    text-align: center;
+    font-size: 5vh;
+  }
+  #skills h3 {
+    color: #02111B;
+  }
+  #Contact {
+    height: 20vh;
+    background-color: #9A031E;
+  }
+  #Contact p {
+    color: #E1CA96;
+    font-size: 1.25vh;
+  }
+  #Contact a {
+    text-decoration: underline;
+  }
+  #works {
+    background-color: #02111B;
+  }
+  #works h2 {
+    color: #E1CA96;
+    font-size: 5vh;
+  }
+  #works h3 {
+    color: #E1CA96;
+    font-size: 2.5vh;
+  }
+  #about p {
+    font-size: 2.5vh;
+  }
+  li {
+    font-size: 2.5vh;
+  }
 }
 
 /*# sourceMappingURL=styel.css.map */
